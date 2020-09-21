@@ -29,3 +29,5 @@ TARGET_KERNEL_CONFIG := lineageos_us997_defconfig
 
 # inherit from the proprietary version
 -include vendor/lge/us997/BoardConfigVendor.mk
+
+ALLOW_MISSING_DEPENDENCIES=true
